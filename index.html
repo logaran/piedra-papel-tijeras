@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Piedra, papel, tijeras!</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300;500&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>¿Piedra, papel o tijeras?</h1>
+        <h2 id="message">¡Haz tu jugada!</h2>
+        <div id="zonaJuego">
+            <div id="jugador1">
+                <p>J1</p>
+                <div id="j1-img"class="leftPiedra"></div>
+                <div id="puntuacionPlayer">0</div>
+            </div>
+            <div id="jugador2">
+                <p>Pc</p>
+                <div id="j2-img" class="rightPiedra"></div>
+                <div id="puntuacionPc">0</div>
+            </div>
+        </div>
+        <div class="pulsadores">
+            <button onclick="getJugada('0')" class="leftPiedra"></button>
+            <button onclick="getJugada('1')" class="leftPapel"></button>
+            <button onclick="getJugada('2')" class="leftTijeras"></button>
+        </div>
+    </main>
+
+</body>
+
+</html>
