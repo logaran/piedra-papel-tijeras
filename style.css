@@ -56,37 +56,37 @@ h1 {
     margin: auto;
 }
 .rightPiedra {
-    background-image: url(/img/piedraRight.png);
+    background-image: url(./img/piedraRight.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 .rightTijeras {
-    background-image: url(/img/tijerasRight.png);
+    background-image: url(./img/tijerasRight.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 .rightPapel {
-    background-image: url(/img/papelRight.png);
+    background-image: url(./img/papelRight.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 .leftPiedra {
-    background-image: url(/img/piedraLeft.png);
+    background-image: url(./img/piedraLeft.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 .leftTijeras {
-    background-image: url(/img/tijerasLeft.png);
+    background-image: url(./img/tijerasLeft.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
 }
 .leftPapel {
-    background-image: url(/img/papelLeft.png);
+    background-image: url(./img/papelLeft.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
